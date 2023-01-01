@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task0';
+  constructor(){
+    
+  setTimeout(() => {
+    this.title = "New Title after 3 seconds"
+  },5);
+  }
 }
